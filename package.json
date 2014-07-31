@@ -1,0 +1,17 @@
+{
+  "name": "portable-uuid",
+  "version": "1.0.0",
+  "description": "Simple, node/browser compatible UUID generator with enhanced randomness",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uuid",
+    "random",
+    "browser",
+    "node"
+  ],
+  "author": "Sven Neumann <killroy@gmail.com> (http://svenneumann.com/)",
+  "license": "MIT"
+}
