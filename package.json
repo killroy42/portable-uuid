@@ -1,8 +1,9 @@
 {
   "name": "portable-uuid",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Simple, node/browser compatible UUID generator with enhanced randomness",
   "main": "index.js",
+  "repository": { "type": "git", "url": "https://github.com/killroy42/portable-uuid" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
