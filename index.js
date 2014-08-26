@@ -1,15 +1,13 @@
 (function(){
 'use strict';
 	
-	var
-		rng = require('portable-rng')(),
-		uuid;
+	var rng = require('portable-rng')();
 
 	function setRng(newRng) {
 		rng = newRng;
 	}
 
-	uuid = function () {
+	function uuid() {
 		return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
 			var r = rng() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
 			return v.toString(16);
