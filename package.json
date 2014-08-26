@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "Simple, node/browser compatible UUID generator with enhanced randomness",
   "main": "index.js",
-  "repository": { "type": "git", "url": "https://github.com/killroy42/portable-uuid" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/killroy42/portable-uuid"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "keywords": [
     "uuid",
@@ -14,5 +17,12 @@
     "node"
   ],
   "author": "Sven Neumann <killroy@gmail.com> (http://svenneumann.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "portable-rng": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": ">= 0.0.1"
+ }
 }
